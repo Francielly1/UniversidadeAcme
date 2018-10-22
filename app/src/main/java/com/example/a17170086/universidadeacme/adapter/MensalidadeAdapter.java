@@ -35,14 +35,12 @@ public class MensalidadeAdapter extends ArrayAdapter<Mensalidade> {
         TextView txtData = v.findViewById(R.id.txt_data);
         TextView txtStatus = v.findViewById(R.id.txt_status);
 
-
-
         Mensalidade mensalidade = getItem(position);
 
         txtMes.setText(mensalidade.getMes());
         txtValor.setText(mensalidade.getValor());
         txtData.setText(mensalidade.getVencimento());
-        txtValor.setText(mensalidade.getStatus());
+        txtStatus.setText(mensalidade.getStatus());
 
 
         //txtDescricao.setText(noticia.getDescricao());

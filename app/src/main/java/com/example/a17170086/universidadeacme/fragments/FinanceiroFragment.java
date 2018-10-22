@@ -93,7 +93,7 @@ public class FinanceiroFragment extends Fragment implements AdapterView.OnItemCl
         //limpando o listview
         mensalidadeAdapter.clear();
 
-        //adicionando os livros na tela
+        //adicionando as mesalidades na tela
         mensalidadeAdapter.addAll(mensalidades);
     }
 }
