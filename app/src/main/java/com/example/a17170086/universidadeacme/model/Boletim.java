@@ -4,8 +4,8 @@ public class Boletim {
 
     private int id;
     private String disciplina;
-    private int nota;
-    private int faltas;
+    private Integer nota;
+    private Integer faltas;
     private String semestre;
 
     //construtor
@@ -34,21 +34,7 @@ public class Boletim {
         this.disciplina = disciplina;
     }
 
-    public int getNota() {
-        return nota;
-    }
 
-    public void setNota(int nota) {
-        this.nota = nota;
-    }
-
-    public int getFaltas() {
-        return faltas;
-    }
-
-    public void setFaltas(int faltas) {
-        this.faltas = faltas;
-    }
 
     public String getSemestre() {
         return semestre;
@@ -56,5 +42,21 @@ public class Boletim {
 
     public void setSemestre(String semestre) {
         this.semestre = semestre;
+    }
+
+    public Integer getNota() {
+        return nota;
+    }
+
+    public void setNota(Integer nota) {
+        this.nota = nota;
+    }
+
+    public Integer getFaltas() {
+        return faltas;
+    }
+
+    public void setFaltas(Integer faltas) {
+        this.faltas = faltas;
     }
 }

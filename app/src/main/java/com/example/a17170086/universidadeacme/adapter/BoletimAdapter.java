@@ -38,8 +38,8 @@ public class BoletimAdapter extends ArrayAdapter<Boletim> {
 
 
         txtDisciplina.setText(boletim.getDisciplina());
-        txtNota.setText(boletim.getNota());
-        txtFalta.setText(boletim.getFaltas());
+        txtNota.setText(boletim.getNota().toString());
+        txtFalta.setText(boletim.getFaltas().toString());
 
         //txtDescricao.setText(noticia.getDescricao());
 
